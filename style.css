@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #16151b;  /* Cor de fundo */
+    color: #fff;  /* Texto branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        width: 80%; /* Torna os botões maiores em telas pequenas */
+        margin-bottom: 10px;
+    }
+    img {
+        max-width: 150px;
+    }
+}
+
+img {
+    width: 250px;  /* Ajuste o tamanho conforme necessário */
+    height: auto;  /* Mantém a proporção */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #8f53ffd3;  /* Título com cor clara */
+}
+
+p {
+    font-size: 1.2em;
+    color: #bfbfbf;  /* Parágrafo com cor clara */
+}
+
+.btn-custom {
+    margin: 0 4px; /* Ajuste a margem conforme necessário */
+}
+
+
+.btn-primary {
+    background-color: #624888;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+a {
+    color: #8f53ffd3;  /* Links com cor clara */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
